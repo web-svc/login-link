@@ -66,7 +66,7 @@
       "FieldEntities": [
           { "Name": "Apps", "Description": "Fields related to app-level metadata or settings" }
       ],
-      "User": {
+      "Users": {
         "WebGuid": "52216b5a-f157-4a08-89c5-3d5c8ea3c75d",
         "Email": "help@websvc.in",
         "Mobile": "6363858568",
@@ -76,8 +76,8 @@
         "IsEmailVerified": true,
         "IsMobileVerified": true
       },
-      "App": {
-            "UserId": "52216b5a-f157-4a08-89c5-3d5c8ea3c75d",
+      "Apps": {
+            "Users.WebGuid.UserId": "52216b5a-f157-4a08-89c5-3d5c8ea3c75d",
             "ClientId": "f6c2aedd-8228-4c08-99b0-6ebd818b6371",
             "Secret": "exampleSecret123",
             "Name": "Login Link",
@@ -92,13 +92,13 @@
       },
       "Roles": [
           {
-            "AppId": "f6c2aedd-8228-4c08-99b0-6ebd818b6371",
+            "Apps.ClientId.AppId": "f6c2aedd-8228-4c08-99b0-6ebd818b6371",
             "InnerName": "root",
             "Name": "Root",
             "Description": "The highest level role with full access to all system resources and configurations."
           },
           {
-            "AppId": "f6c2aedd-8228-4c08-99b0-6ebd818b6371",
+            "Apps.ClientId.AppId": "f6c2aedd-8228-4c08-99b0-6ebd818b6371",
             "InnerName": "default",
             "Name": "Default",
             "Description": "A standard role with basic access permissions suitable for regular users."
