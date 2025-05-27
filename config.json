@@ -80,7 +80,8 @@
             "UserId": {
                   "refTable": "Users",
                   "refColumn": "WebGuid",
-                  "value": "52216b5a-f157-4a08-89c5-3d5c8ea3c75d"
+                  "value": "52216b5a-f157-4a08-89c5-3d5c8ea3c75d",
+                  "targetColumn": "Id"
             },
             "ClientId": "f6c2aedd-8228-4c08-99b0-6ebd818b6371",
             "Secret": "exampleSecret123",
@@ -99,7 +100,8 @@
             "AppId": {
                   "refTable": "Apps",
                   "refColumn": "ClientId",
-                  "value": "f6c2aedd-8228-4c08-99b0-6ebd818b6371"
+                  "value": "f6c2aedd-8228-4c08-99b0-6ebd818b6371",
+                  "targetColumn": "Id"
             },
             "InnerName": "root",
             "Name": "Root",
@@ -109,7 +111,8 @@
             "AppId": {
                   "refTable": "Apps",
                   "refColumn": "ClientId",
-                  "value": "f6c2aedd-8228-4c08-99b0-6ebd818b6371"
+                  "value": "f6c2aedd-8228-4c08-99b0-6ebd818b6371",
+                  "targetColumn": "Id"
             },
             "InnerName": "default",
             "Name": "Default",
