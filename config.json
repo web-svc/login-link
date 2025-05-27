@@ -89,7 +89,12 @@
             "TagLine": "authentication-authorization",
             "LogoUrl": "https://example.com/logo.png",
             "RedirectUrl": "https://example.com/redirect",
-            "ClientTypeId": "Confidential",
+            "ClientTypeId": {
+                  "refTable": "ClientTypes",
+                  "refColumn": "Name",
+                  "value": "Confidential",
+                  "targetColumn": "Id"
+            },
             "AutoActivateUser": true,
             "MaxLoginAttempts": 5,
             "IsEmailVerificationRequired": true,
