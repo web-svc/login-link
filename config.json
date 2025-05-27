@@ -1,0 +1,107 @@
+{
+      "AuthProviders": [
+        {
+          "Name": "Default",
+          "Description": "The default authentication method configured by the application."
+        },
+        {
+          "Name": "SMSOTP",
+          "Description": "Authentication using a One-Time Password (OTP) sent via SMS."
+        },
+        {
+          "Name": "MAILOTP",
+          "Description": "Authentication using a One-Time Password (OTP) sent via email."
+        },
+        {
+          "Name": "Facebook",
+          "Description": "Authentication through Facebook OAuth2.0 login system."
+        },
+        {
+          "Name": "Google",
+          "Description": "Authentication through Google OAuth2.0 login system."
+        },
+        {
+          "Name": "LinkedIn",
+          "Description": "Authentication through LinkedIn OAuth2.0 login system."
+        },
+        {
+          "Name": "Microsoft",
+          "Description": "Authentication through Microsoft OAuth2.0 login system, including Azure AD and personal accounts."
+        },
+        {
+          "Name": "Twitter",
+          "Description": "Authentication through Twitter OAuth2.0 login system (current version)."
+        },
+        {
+          "Name": "TwitterV1",
+          "Description": "Authentication through Twitter legacy version 1 OAuth2.0 login system."
+        },
+        {
+          "Name": "Yahoo",
+          "Description": "Authentication through Yahoo OAuth2.0 login system."
+        }
+      ],
+      "ClientTypes": [
+          {
+            "Name": "Confidential",
+            "Description": "Used for applications that securely handle sensitive information and require client authentication, such as server-to-server communication."
+          },
+          {
+            "Name": "Public",
+            "Description": "Used for applications that do not handle sensitive information and do not require client authentication, such as single-page or mobile applications."
+          }
+      ],
+      "FieldTypes": [
+          { "Name": "text", "Description": "Single line text input" },
+          { "Name": "textarea", "Description": "Multi-line text area" },
+          { "Name": "dropdown", "Description": "Dropdown with predefined options" },
+          { "Name": "radio", "Description": "Radio button group" },
+          { "Name": "checkbox", "Description": "Checkbox input" },
+          { "Name": "date", "Description": "Date picker" },
+          { "Name": "datetime", "Description": "Date and time picker" },
+          { "Name": "number", "Description": "Numeric input" },
+          { "Name": "email", "Description": "Email input" },
+          { "Name": "url", "Description": "URL input" }
+      ],
+      "FieldEntities": [
+          { "Name": "Apps", "Description": "Fields related to app-level metadata or settings" }
+      ]
+      "Roles": [
+          {
+            "AppId": "f6c2aedd-8228-4c08-99b0-6ebd818b6371",
+            "InnerName": "root",
+            "Name": "Root",
+            "Description": "The highest level role with full access to all system resources and configurations."
+          },
+          {
+            "AppId": "f6c2aedd-8228-4c08-99b0-6ebd818b6371",
+            "InnerName": "default",
+            "Name": "Default",
+            "Description": "A standard role with basic access permissions suitable for regular users."
+          }
+      ],
+        "App": {
+            "UserId": "52216b5a-f157-4a08-89c5-3d5c8ea3c75d",
+            "ClientId": "f6c2aedd-8228-4c08-99b0-6ebd818b6371",
+            "Secret": "exampleSecret123",
+            "Name": "Login Link",
+            "TagLine": "authentication-authorization",
+            "LogoUrl": "https://example.com/logo.png",
+            "RedirectUrl": "https://example.com/redirect",
+            "ClientTypeId": "Confidential",
+            "AutoActivateUser": true,
+            "MaxLoginAttempts": 5,
+            "IsEmailVerificationRequired": true,
+            "IsMobileVerificationRequired": false
+      },
+      "User": {
+        "WebGuid": "52216b5a-f157-4a08-89c5-3d5c8ea3c75d",
+        "Email": "help@websvc.in",
+        "Mobile": "6363858568",
+        "Name": "Narender K",
+        "IsActive": true,
+        "LoginAttempt": 0,
+        "IsEmailVerified": true,
+        "IsMobileVerified": true
+      }
+    }
