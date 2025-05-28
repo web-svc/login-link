@@ -64,7 +64,8 @@
           { "Name": "url", "Description": "URL input" }
       ],
       "FieldEntities": [
-          { "Name": "Apps", "Description": "Fields related to app-level metadata or settings" }
+            { "Name": "Apps", "Description": "Fields related to app-level metadata or settings" },
+            { "Name": "Users", "Description": "Fields related to user-level metadata or settings" }
       ],
       "Users": {
         "WebGuid": "52216b5a-f157-4a08-89c5-3d5c8ea3c75d",
