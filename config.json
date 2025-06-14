@@ -110,7 +110,6 @@
                   "value": "f6c2aedd-8228-4c08-99b0-6ebd818b6371",
                   "targetColumn": "Id"
             },
-            "InnerName": "root",
             "Name": "Root",
             "Description": "The highest level role with full access to all system resources and configurations."
           },
