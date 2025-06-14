@@ -120,7 +120,6 @@
                   "value": "f6c2aedd-8228-4c08-99b0-6ebd818b6371",
                   "targetColumn": "Id"
             },
-            "InnerName": "default",
             "Name": "Default",
             "Description": "A standard role with basic access permissions suitable for regular users."
           }
